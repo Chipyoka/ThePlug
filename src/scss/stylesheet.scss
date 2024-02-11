@@ -1,0 +1,46 @@
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(13, 13, 48);
+    color: rgb(4, 138, 248);
+    text-align: center;
+
+}
+
+
+div{
+    height: 50vh;
+    margin-top: 3.5em;
+}
+h1 {
+    font-weight: 800;
+}
+
+div a.cta {
+    
+    border: 2 px solid rgb(4, 138, 248);
+    border-radius: 5px;
+    color: rgb(4, 138, 248);
+    padding: 4em 10em;
+}
+
+div a.cta {
+    color: white;
+    text-decoration:dashed;
+}
+footer {
+    font-size: 0.7rem;
+}
+
+@media (max-width : 767px){
+    font-size-sm{
+        font-size: .7rem;
+    }
+    div p {
+        padding : 2em;
+        margin-left : 2em;
+        margin-right : 2em;
+    }
+}
