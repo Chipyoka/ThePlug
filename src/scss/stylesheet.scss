@@ -17,7 +17,7 @@ div.b{
     margin-top: 0.5em;
 }
 h1 {
-    font-weight: 800;
+    font-weight: 900;
     margin-bottom: 0em;
 }
 
@@ -54,6 +54,9 @@ footer {
 @media (max-width : 767px){
     font-size-sm{
         font-size: .7rem;
+    }
+    font-size-m{
+        font-size: 1.2rem;
     }
     div p {
         padding : 0.5em;
