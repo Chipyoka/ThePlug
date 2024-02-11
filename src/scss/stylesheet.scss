@@ -11,11 +11,14 @@ body{
 
 
 div{
-    height: 50vh;
-    margin-top: 3.5em;
+    margin-top: 2.5em;
+}
+div.b{
+    margin-top: 0.5em;
 }
 h1 {
     font-weight: 800;
+    margin-bottom: 0em;
 }
 
 div a.cta {
@@ -28,8 +31,24 @@ div a.cta {
 h6 {
     margin-top: 2em;
 }
+
+div p {
+    padding : 0em;
+    margin-left : 0em;
+    margin-right : 0em;
+    margin-top: 0.3em;
+    margin-bottom: 0em;
+}
+
 footer {
+    margin-top: 5em;
     font-size: 0.7rem;
+}
+
+.custom-container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width : 767px){
@@ -37,8 +56,14 @@ footer {
         font-size: .7rem;
     }
     div p {
-        padding : 2em;
+        padding : 0.5em;
         margin-left : 2em;
         margin-right : 2em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+    hr{ 
+        width: 70%;
+        margin-bottom: 1.5em;
     }
 }
